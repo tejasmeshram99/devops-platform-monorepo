@@ -26,7 +26,11 @@ devops-platform-monorepo/
 ├── .pre-commit-config.yaml        # Local Git hooks (tflint, trivy, fmt)
 └── .tflint.hcl                    # TFLint ruleset configuration
 
-🛡️ Key Platform Features
+```
+
+---
+
+## 🛡️ Key Platform Features
 Tenant Isolation: Automatic setup of dedicated Kubernetes Namespaces and scoped Service Accounts for every tenant squad.
 
 Resource Guardrails: Enforces ResourceQuota (CPU, Memory, Pod limits) to prevent "noisy-neighbor" issues across tenants.
