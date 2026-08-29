@@ -1,0 +1,14 @@
+# Local Terraform files
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+
+# Lock files (optional, but good practice for modules)
+.terraform.lock.hcl
+
+# OS & Editor specific
+.DS_Store
+.idea/
+.vscode/
